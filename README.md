@@ -115,7 +115,7 @@ EOF
 ```
 ##### Install Kubernetes components
 ```
-yum install -y kubeadm-1.21.2-0 kubelet-1.21.2-0 kubectl-1.21.2-0
+dnf install -y kubeadm-1.21.2-0 kubelet-1.21.2-0 kubectl-1.21.2-0
 ```
 ##### Enable and Start kubelet service
 ```
