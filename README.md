@@ -155,7 +155,7 @@ vi kube-flannel.yml
 - --iface:eth1
 ```
 
-Deployer Flannel
+Deploy Flannel
 
 ```
 kubectl apply -f kube-flannel.yml
