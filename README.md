@@ -59,14 +59,14 @@ setenforce 0
 sed -i --follow-symlinks 's/^SELINUX=enforcing/SELINUX=disabled/' /etc/sysconfig/selinux
 ```
 
-##### Disable Firewall
+##### Config Firewall
 
-On Dev mode
+On Dev mode we can disable it
 ```
 systemctl disable firewalld; systemctl stop firewalld
 ```
 
-On Prod mode
+On Prod mode we need to do this config
 ```
 firewall-cmd --permanent --add-port=6783/tcp
 firewall-cmd --permanent --add-port=10250/tcp
