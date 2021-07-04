@@ -8,11 +8,29 @@ In this documentation we will see how to set up a Kubernetes cluster on __CentOS
 All VMs are provisioned with Vagrant.
 See Vagrantfile for details
 
-|Role|IP|OS|RAM|CPU|
-|----|----|----|----|----|----|
-|Master|172.16.1.50|CentOS 8|2G|2|
-|Worker1|172.16.1.51|CentOS 8|2G|2|
-|Worker2|172.16.1.52|CentOS 8|2G|2|
+master-node : 
+
+IP : 172.16.1.50
+
+RAM : 2G
+
+CPU : 2
+
+node-1 :
+
+IP : 172.16.1.51
+
+RAM : 2G
+
+CPU : 2
+
+node-2 :
+
+IP : 172.16.1.52
+
+RAM : 2G
+
+CPU : 2
 
 ## On all VMs
 
