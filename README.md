@@ -170,8 +170,8 @@ kubeadm token create --print-join-command
 ##### Join the cluster
 Use the output from __kubeadm token create__ command in previous step and run it here.
 
-## Verifying the cluster
-##### On Master get Nodes status
+## Verifying the cluster : run cmds on Master nodes
+##### Get Nodes status
 ```
 kubectl get nodes
 
