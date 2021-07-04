@@ -149,7 +149,13 @@ In my case the network interface should be used is : eth1
 
 ```
 wget https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+
+vi kube-flannel.yml
+# search flanneld and in the args section add :
+- --iface:eth1
 ```
+
+Deployer Flannel
 
 ```
 kubectl apply -f kube-flannel.yml
