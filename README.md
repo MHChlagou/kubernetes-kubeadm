@@ -43,7 +43,7 @@ Perform all the commands as root user
 hostnamectl set-hostname master-node
 # For Worker1
 hostnamectl set-hostname 'node-1'
-# For Worker1
+# For Worker2
 hostnamectl set-hostname 'node-2'
 
 cat <<EOF>> /etc/hosts
