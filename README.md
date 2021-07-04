@@ -1,7 +1,7 @@
 # kubernetes-kubeadm
 
 ## Install Kubernetes Cluster using kubeadm
-In this documentation we will see how to set up a Kubernetes cluster on __CentOS 8__.
+In this documentation we will see how to setup a Kubernetes cluster on __CentOS 8__.
 
 ## Assumptions
 
